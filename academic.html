@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Academic History</title>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+  <style>
+    body {
+      font-family: 'Poppins', sans-serif;
+      margin: 0;
+      padding: 0;
+      background: #fff6f0;
+      color: #333;
+    }
+
+    nav {
+      background: #ffb6b9;
+      padding: 15px;
+      text-align: center;
+    }
+
+    nav a {
+      text-decoration: none;
+      color: white;
+      margin: 0 12px;
+      font-weight: 600;
+      transition: 0.3s;
+    }
+
+    nav a:hover {
+      color: #ffe0ac;
+    }
+
+    .container {
+      max-width: 900px;
+      margin: 50px auto;
+      padding: 0 20px;
+    }
+
+    h1 {
+      text-align: center;
+      color: #ff6f91;
+      margin-bottom: 50px;
+    }
+
+    .timeline {
+      position: relative;
+      margin-left: 20px;
+      border-left: 4px solid #ffc3a0;
+      padding-left: 20px;
+    }
+
+    .timeline-item {
+      position: relative;
+      margin-bottom: 50px;
+      background: #fffaf0;
+      padding: 20px;
+      border-radius: 16px;
+      box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+      transition: transform 0.3s;
+    }
+
+    .timeline-item:hover {
+      transform: scale(1.02);
+    }
+
+    .timeline-item::before {
+      content: '';
+      position: absolute;
+      left: -32px;
+      top: 20px;
+      width: 20px;
+      height: 20px;
+      background: #ffb6b9;
+      border-radius: 50%;
+      border: 3px solid white;
+      box-shadow: 0 0 0 2px #ffc3a0;
+    }
+
+    .timeline-item img {
+      width: 100%;
+      max-width: 200px;
+      border-radius: 12px;
+      margin-bottom: 15px;
+      box-shadow: 0 4px 8px rgba(0,0,0,0.08);
+    }
+
+    .timeline-item h2 {
+      margin: 10px 0 5px;
+      color: #e76f51;
+    }
+
+    .timeline-item p {
+      margin: 5px 0;
+      line-height: 1.6;
+      font-size: 1rem;
+    }
+
+    .timeline-item strong {
+      color: #444;
+    }
+  </style>
+</head>
+<body>
+  <nav>
+    <a href="index.html">Home</a>
+    <a href="academic.html">Academic History</a>
+    <a href="work.html">Work</a>
+    <a href="qualities.html">Personal Qualities</a>
+    <a href="activity.html">Activity</a>
+    <a href="contact.html">Contact</a>
+  </nav>
+
+  <div class="container">
+    <h1>Academic Journey</h1>
+
+    <div class="timeline">
+      <div class="timeline-item">
+        <img src="image/utem.png" alt="University">
+        <h2>University</h2>
+        <p><strong>University:</strong> Universiti Teknikal Malaysia Melaka (UTeM)</p>
+        <p><strong>Program:</strong> Bachelor of Computer Science (Computer Networking) With Honours</p>
+        <p><strong>Years:</strong> 2024 – Present</p>
+      </div>
+      
+      <div class="timeline-item">
+        <img src="image/kmk.png" alt="Matriculation">
+        <h2>Matriculation</h2>
+        <p><strong>College:</strong> Kolej Mara Kulim</p>
+        <p><strong>Program:</strong> Physical Science</p>
+        <p><strong>Years:</strong> 2023 – 2024</p>
+        <p><strong>Achievements:</strong></p>
+        <ul>
+          <li>CGPA: 3.17</li>
+          <li>MUET: Band 4</li>
+        </ul>
+      </div>
+      
+      <div class="timeline-item">
+        <img src="image/mrsm.jpg" alt="Secondary School">
+        <h2>Secondary School</h2>
+        <p><strong>School:</strong> MRSM Pendang</p>
+        <p><strong>Program:</strong> Science Stream</p>
+        <p><strong>Years:</strong> 2018 – 2022</p>
+        <p><strong>Achievements:</strong> SPM 2023: 5A's, 1B, 3C's</p>
+      </div>
+    </div>
+  </div>
+</body>
+</html>
